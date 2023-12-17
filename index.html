@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthhub</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <!-- boostrape 5 cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font-awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom file  -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- navbar section  -->
+    <header class=" bg-white">
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand " href="#">
+                    <img src="images/logo.png" alt="" class="img-fluid" width="50px" height="50px">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="far fa-stream navbar-toggler-icon"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar ">
+                        <li class="nav-item">
+                            <a class="nav-link  "  href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#specialities">Our specialities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#doctors">Our Doctors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#testimonial">Testimonial</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="nav-link " href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="nav-link " href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar section exit -->
+
+    <!-- login  -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content login">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Fill your details</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+              <div class="mb-3">
+                <label for="name1" class="form-label"> Name</label>
+                <input type="text" class="form-control" id="name1" placeholder="Enter your name">
+              </div>
+              <div class="mb-3">
+                <label for="age1" class="form-label">Age</label>
+                <input type="number" class="form-control" id="age1" placeholder="Enter your age">
+              </div>
+              <div class="mb-3">
+                <label for="gender1" class="form-label">Gender</label><br>
+                <input type="radio" name="gender"  id="gender1">Male
+                <input type="radio" name="gender"  id="gender1">Female
+                <input type="radio" name="gender"  id="gender1">Both
+                
+              </div>
+              <div class="mb-3">
+                <label for="email1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Enter your address</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="main-btn" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="main-btn">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <!-- Banner section -->
+    <section id="home" class="home">
+
+        <div class="banner_wrapper  pb-2 pt-5" style="height: 28rem">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-7 order-md-1 order-2">
+                        <h3 class="text-dark">Your Wellness, Our Priority</h3>
+                        <h1 class="text-dark">Your Trusted HealthHub Hospital</h1>
+                        <p class="text-dark">Welcome to HealthHub, where every heartbeat matters. With a dedicated team of
+                            compassionate experts and state-of-the-art facilities, we're committed to providing
+                            exceptional healthcare, ensuring your journey to wellness is guided by expertise, care, and
+                            comfort.</p>
+                        <a href="#" class="main-btn mt-4 fill-btn">Appointment</a>
+                        <a href="#" class="main-btn mt-4 ms-3 fill-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="pt-5 pb-0">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="card text-center">
+                            <div class="icon-box">
+                                <img  src="./images/topbanner/b1.svg" width="70px">                          
+                            </div>
+                            <br>
+                            <div>
+                                <h4>Easy Appointment</h4>
+                                <p>Lorem Ipsum is simply is very dummy text of the printings and type setting</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="card text-center">
+                            <div class="icon-box">
+                                <img src="./images/topbanner/b2.png" width="70px">
+                            </div>
+                            <br>
+                            <div>
+                                <h4>Emergency Service</h4>
+                                <p>Lorem Ipsum is simply is very dummy text of the printings and type setting</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="card text-center">
+                            <div class="icon-box">
+                                <img src="./images/topbanner/b3.png" width="70px"">
+                            </div>
+                            <br>
+                            <div>
+                                <h4>24/7 Service</h4>
+                                <p>Lorem Ipsum is simply is very dummy text of the printings and type setting</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner section exit -->
+
+
+    <!-- About section --> 
+    <section id="about" class="about pt-2">
+        <div class="container justify-content-center">
+            <div class="row">
+                <div class="col-md-5  mb-5">
+                    <div >
+                        <img src="images/about/about.jpg" class="img-fluid" >
+                    </div>
+                </div>
+
+                <div class="col-1">
+
+                </div>
+               
+
+                <div class="col-md-5 text-center text-md-start">
+                    <h2>Welcome to HealthHub</h2>
+                    <p>lorum luptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                        dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+                    <br>
+                        <div class="mt-2 card">
+
+                        <div class="about-clinic">
+                            <h4>550+</h4>
+                            <p>Happy Patients</p>
+                        </div>
+                        <hr>
+                     
+
+                        <div class="about-clinic">
+                            <h4>89+</h4>
+                            <p>Qualified Doctors</p>
+                        </div>
+                        <hr>
+                        
+
+                        <div class="about-clinic">
+                            <h4>25+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <hr>
+                      
+
+                        <div class="about-clinic">
+                            <h4>57+</h4>
+                            <p>Doctors Awards</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section exit -->
+
+
+    <!-- specialities section --> 
+    <section id="specialities" class="services mt-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mt-3 mb-4 ">
+                    <h1>Our Specialities</h1>
+                </div>
+            </div>
+            <div class="row">
+
+                  <!-- 1 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <div class="icon-box">
+                            <img  src="/images/Speciality/s1.jpg"  class="img-fluid">
+                        </div>
+                        <br>
+                        <div>
+                            <h4>Dermatology</h4>
+                            <p>Specializing in skin-related conditions.</p>
+                            <a href="#" class="main-btn mt-4">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <div class="icon-box">
+                            <img  src="/images/Speciality/s2.jpg"  class="img-fluid">
+                        </div>
+                        <div>
+                            <h4>Cardiology</h4>
+                            <p>Specializing in heart-related conditions and treatments.</p>
+                            <a href="#" class="main-btn mt-4">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <div class="icon-box">
+                        <img  src="/images/Speciality/s3.jpg"  class="img-fluid">
+                        </div>
+                        <div>
+                            <h4>Oncology</h4>
+                            <p>Focused on diagnosing and treating cancer.</p>
+                            <a href="#" class="main-btn mt-4">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <div class="icon-box">
+                            <img  src="/images/Speciality/s4.jpg"  class="img-fluid"> 
+                        </div>
+                        <br>
+                        <div>
+                            <h4>Orthopedics</h4>
+                            <p> Dealing with bones, joints, ligaments, and muscles.</p>
+                            <a href="#" class="main-btn mt-4">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                  <!-- 5 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <div class="icon-box">
+                            <img  src="/images/Speciality/s5.jpg"  class="img-fluid">
+                        </div>
+                        <br>
+                        <div>
+                            <h4>Neurology</h4>
+                            <p>Concentrating on disorders related to the nervous system.</p>
+                            <a href="#" class="main-btn mt-4">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                  <!-- 6 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <div class="icon-box">
+                            <img  src="/images/Speciality/s6.jpg"  class="img-fluid"> 
+                        </div>
+                        <div>
+                            <h4>Pediatrics</h4>
+                            <p>Dedicated to the healthcare of infants, children, and adolescents.</p>
+                            <a href="#" class="main-btn mt-4">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Services section Exit -->
+
+
+
+    <!-- our doctors section --> 
+    <section id="doctors" class="team pt-5">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-12 text-center mb-5">
+                    <h1 class="text-black">Our Doctors</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card rounded-3">
+                        <div class="team-img">
+                            <img  src="./images/doctors/d1.jpg" class="img-fluid">
+                        </div>
+                        <div class="team-info pt-4 text-center">
+                            <h5>Darry Milin</h5>
+                            <p>Pediatrician</p>
+                            <ul class="social-network">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i  class="fab fa-linkedin" ></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" ></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card rounded-3">
+                        <div class="team-img">
+                            <img  src="./images/doctors/d2.jpg" class="img-fluid">
+                        </div>
+                        <div class="team-info pt-4 text-center">
+                            <h5>Salman Ahmed</h5>
+                            <p>Dermatologist</p>
+                            <ul class="social-network">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i  class="fab fa-linkedin" ></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" ></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card rounded-3">
+                        <div class="team-img">
+                            <img  src="./images/doctors/d3.jpg" class="img-fluid">
+                        </div>
+                        <div class="team-info pt-4 text-center">
+                            <h5>Santa Binte</h5>
+                            <p>Cardiologist</p>
+                            <ul class="social-network">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i  class="fab fa-linkedin" ></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" ></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card rounded-3">
+                        <div class="team-img">
+                            <img  src="./images/doctors/d4.jpg" class="img-fluid">
+                        </div>
+                        <div class="team-info pt-4 text-center">
+                            <h5>Santa Binte</h5>
+                            <p>Oncologist</p>
+                            <ul class="social-network">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i  class="fab fa-linkedin" ></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" ></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card rounded-3">
+                        <div class="team-img">
+                            <img  src="./images/doctors/d5.jpg" class="img-fluid">
+                        </div>
+                        <div class="team-info pt-4 text-center">
+                            <h5>Santa Binte</h5>
+                            <p>orthopedist</p>
+                            <ul class="social-network">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i  class="fab fa-linkedin" ></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" ></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card ">
+                        <div class="team-img">
+                            <img  src="./images/doctors/d6.jpg" class="img-fluid">
+                        </div>
+                        <div class="team-info pt-4 text-center">
+                            <h5>Santa Binte</h5>
+                            <p>Neurologist</p>
+                            <ul class="social-network">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i  class="fab fa-linkedin" ></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" ></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section Exit  -->
+
+    <!-- Gallery section --> 
+    <section id="gallery" class="gallery ">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-5 pt-4">
+                    <h1>Our Gallery</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 ">
+                    <img src="./images/gallery/g1.jpg" class="w-100" height="430px">
+                </div>
+                <div class="col-md-4 col-sm-6 ">
+                    <img src="./images/gallery/g2.jpg" class="w-100" height="430px">
+                </div>
+                <div class="col-md-4 col-sm-6 ">
+                    <img src="./images/gallery/g3.jpg" class="w-100" height="430px">
+                </div>
+                <div class="col-md-4 col-sm-6 ">
+                    <img src="./images/gallery/g4.jpg" class="w-100" height="430px">
+                </div>
+                <div class="col-md-4 col-sm-6 ">
+                    <img src="./images/gallery/g5.jpg" class="w-100" height="430px">
+                </div>
+                <div class="col-md-4 col-sm-6 ">
+                    <img src="./images/gallery/g6.jpg" class="w-100" height="430px">
+                </div>
+                <div class="col-md-4 col-sm-6 ">
+                    <img src="./images/gallery/g7.jpg" class="w-100" height="430px">
+                </div>
+                <div class="col-md-4 col-sm-6 ">
+                    <img src="./images/gallery/g8.jpg" class="w-100" height="430px">
+                </div>
+                <div class="col-md-4 col-sm-6 ">
+                    <img src="./images/gallery/g9.jpg" class="w-100" height="430px">
+                </div>
+                <div class="col-md-12 col-sm-6 ">
+                    <img src="./images/gallery/g10.jpg" class="w-100" height="430px">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section Exit -->
+    
+
+    <!-- Testimonial section --> 
+    <section id="testimonial" class="testimonial ">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4 pt-4">
+                    <h1 class="text-black">Testimonials</h1>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-xl-3 col-md-4 col-sm-6">
+                    <div class="card text-center">
+                        <img  src="./images/testimonial/t1.jpg" class="img-fluid">
+                        <h4 class="pt-4 mb-0">Aliceano Colby</h4>
+                        <p>CEO of Prime IT</p> 
+                    </div>
+                </div>
+                <div class="col-xl-9 col-md-8 col-sm-6 ps-md-4 pt-sm-0 pt-4">
+                    <h4>Awesome Work</h4>
+                    <p>“They really took my individual case to heart. Their team is very helpful. They all work
+                        together in an impressive way to make sure that my needs were met and I walked out pain
+                        free.”</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-xl-9 col-md-8 col-sm-6 ps-md-4 pt-sm-0 pt-4">
+                    <h4>Awesome Work</h4>
+                    <p>“They really took my individual case to heart. Their team is very helpful. They all work
+                        together in an impressive way to make sure that my needs were met and I walked out pain
+                        free.”</p>
+                    </div>
+                    <div class="col-xl-3 col-md-4 col-sm-6">
+                        <div class="card text-center">
+                            <img  src="./images/testimonial/t2.jpg" class="img-fluid">
+                            <h4 class="pt-4 mb-0">Aliceano Colby</h4>
+                            <p>CEO of Prime IT</p> 
+                        </div>
+                    </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-xl-3 col-md-4 col-sm-6">
+                    <div class="card text-center">
+                        <img  src="./images/testimonial/t3.jpg" class="img-fluid">
+                        <h4 class="pt-4 mb-0">Aliceano Colby</h4>
+                        <p>CEO of Prime IT</p> 
+                    </div>
+                </div>
+                <div class="col-xl-9 col-md-8 col-sm-6 ps-md-4 pt-sm-0 pt-4">
+                    <h4>Awesome Work</h4>
+                    <p>“They really took my individual case to heart. Their team is very helpful. They all work
+                        together in an impressive way to make sure that my needs were met and I walked out pain
+                        free.”</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- Testimonial Section Exit -->
+
+    <!--Appointment section --> 
+    <section class=" wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-9 col-sm-8 col-9 appointment">
+            <div></div>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-4 col-3">
+                    <h3>Request your appointment and start your smile makeover!</h3>
+                    <a href="#" class="mt-5 main-btn fill-btn">Request Appointment</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Appointment section Exit -->
+
+    
+    <!-- Footer section --> 
+    <section id="contact" class="footer_wrapper wrapper">
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>healthhub Location</h5>
+                    <p class="ps-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim erat ut
+                        laoreet
+                        pharetra....</p>
+                    <div class="contact-info">
+                        <ul class="list-unstyled p-0">
+                            <li><a href="#"><i class="fa fa-home me-3"></i> No. 980, South City, delhi</a></li>
+                            <li><a href="#"><i class="fa fa-phone me-3"></i>9999999898</a></li>
+                            <li><a href="#"><i class="fa fa-envelope me-3"></i>healthhub@example.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>More Links</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Office</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Our Store</a></li>
+                        <li><a href="#">Guarantee</a></li>
+                        <li><a href="#">Buy Gift Card</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>Newsletter</h5>
+                    <div class="form-group mb-4">
+                        <input type="email" class="form-control bg-transparent" placeholder="Enter Your Email Here">
+                        <button type="submit" class="main-btn rounded-2 mt-3 border-white ">Subscribe</button>
+                    </div>
+                    <h5>Stay Connected</h5>
+                    <ul class="social-network d-flex align-items-center p-0 ">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i  class="fab fa-linkedin" ></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram" ></i></a></li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="container-fluid copyright-section ">
+            <p class="p-0 text-dark">Copyright <a href="#" class="text-dark">HEALTHHUB</a> All Rights Reserved</p>
+        </div>
+    </section>
+    <!-- Footer section exit -->
+
+
+
+
+    <!-- boostrape 5 js cdn link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
